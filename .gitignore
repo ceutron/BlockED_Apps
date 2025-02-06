@@ -1,0 +1,53 @@
+# Node modules
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.gz
+
+# Android
+**/android/.gradle/
+**/android/app/build/
+**/android/local.properties
+
+# iOS
+**/ios/Pods/
+**/ios/build/
+**/ios/*.xcodeproj/
+**/ios/*.xcworkspace/
+
+# React Native
+**/.expo/
+**/*.expo-shared/
+**/*.expo
+**/coverage/
+**/*.apk
+**/*.aab
+
+# Misc
+.env
+.env.*
+.idea/
+*.iml
+*.swp
+.vscode/
+*.lock
+
+# Specific project folders
+alunoApp/node_modules/
+configuracaoApp/node_modules/
+alunoApp/android/app/build/
+configuracaoApp/android/app/build/
+alunoApp/ios/Pods/
+configuracaoApp/ios/Pods/
+
+# Exclude builds and sensitive data
+**/build/
+**/debug/
